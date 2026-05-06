@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 
-const API_URL = "http://localhost:5000/api/todos";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const App = () => {
   const [todos, setTodos] = useState([]);
