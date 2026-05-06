@@ -1,0 +1,20 @@
+{
+  "name": "new-todo",
+  "version": "1.0.0",
+  "description": "Todo API built with Express and MongoDB",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "mongoose": "^9.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
